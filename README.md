@@ -1,8 +1,8 @@
 # Kobe Bryant Shot Analysis
 
-This project explores the data set provided by the Kaggle project ["Kobe Bryant Shot Selection"](https://www.kaggle.com/c/kobe-bryant-shot-selection).
+This project explores the data set provided by the Kaggle project ["Kobe Bryant Shot Selection"](https://www.kaggle.com/c/kobe-bryant-shot-selection), and ultimately tries to predict the shot outcome (make/miss) of Kobe's shot based on a number of features of shot selection. The data set is based on all shots taken from Kobe's 20-year career.
 
-Data Description:
+**Data Description:**
 This data contains the location and circumstances of every field goal attempted by Kobe Bryant took during his 20-year career. Your task is to predict whether the basket went in (shot_made_flag).
 
 We have removed 5000 of the shot_made_flags (represented as missing values in the csv file). These are the test set shots for which you must submit a prediction. You are provided a sample submission file with the correct shot_ids needed for a valid prediction.
